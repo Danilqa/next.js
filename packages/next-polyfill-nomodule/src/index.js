@@ -1,9 +1,12 @@
 /* eslint-disable import/no-extraneous-dependencies */
 // Keep in sync with eslint no-unwanted-polyfillio rule: https://github.com/vercel/next.js/blob/master/packages/eslint-plugin-next/lib/rules/no-unwanted-polyfillio.js
+import 'core-js/features/array/at'
 import 'core-js/features/array/copy-within'
 import 'core-js/features/array/fill'
 import 'core-js/features/array/find'
 import 'core-js/features/array/find-index'
+import 'core-js/features/array/find-last'
+import 'core-js/features/array/find-last-index'
 import 'core-js/features/array/flat-map'
 import 'core-js/features/array/flat'
 import 'core-js/features/array/from'

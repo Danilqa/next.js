@@ -3,10 +3,13 @@ import { defineRule } from '../utils/define-rule'
 // Keep in sync with next.js polyfills file : https://github.com/vercel/next.js/blob/master/packages/next-polyfill-nomodule/src/index.js
 const NEXT_POLYFILLED_FEATURES = [
   'Array.prototype.@@iterator',
+  'Array.at',
   'Array.prototype.copyWithin',
   'Array.prototype.fill',
   'Array.prototype.find',
   'Array.prototype.findIndex',
+  'Array.prototype.findLast',
+  'Array.prototype.findLastIndex',
   'Array.prototype.flatMap',
   'Array.prototype.flat',
   'Array.from',
